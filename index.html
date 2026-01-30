@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Namwisi Jahmi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">NAMWISI <span> JAHMI</span></div>
+
+      <nav>
+       <a id="link-accueil" href="#accueil">Accueil</a>
+       <a id="link-apropos" href="#apropos">À propos</a>
+       <a id="link-projets" href="#projets">Projets</a>
+       <a id="link-competences" href="#competences">Compétences</a>
+       <a id="link-contact" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ACCUEIL -->
+  <section id="accueil" class="section hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Je suis <span class="accent">Namwisi Jahmi</span>,<br> Développeur en devenir passionné par le web et le design !</h1>
+        <a class="btn" href="#projets">Voir mes projets</a>
+      </div>
+
+      <div class="hero-illu">
+        <!-- illistration -->
+        <img src="img/illustration.png" alt="Illustration développeur" />
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="apropos" class="section apropos">
+    <div class="container apropos-grid">
+      <div>
+        <h2>À propos</h2>
+        <p>
+          Je m'appelle <b>Namwisi Jahmi</b>, passionné par la création de sites web modernes et interactifs.
+          Je suis actuellement étudiant(e) en <b>développement web</b>, et je cherche à améliorer
+          mes compétences en JavaScript, HTML et CSS.
+        </p>
+        <p>
+          J’adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.
+        </p>
+
+        <!-- Bouton CV -->
+        <a class="btn" href="img/cv.pdf" download>Télécharger mon CV</a>
+      </div>
+
+      <div class="profile">
+        <img src="img/profil.jpg" alt="Photo de profil">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets" class="section projets">
+    <div class="container">
+      <h2>Mes Projets</h2>
+
+      <div class="cards">
+        <article class="card project-card">
+          <h3>Jeu : Pair ou Impair</h3>
+          <p>Un mini-jeu interactif en JavaScript qui vérifie si un nombre est pair ou impair.</p>
+          <p class="tags">#html #css #js</p>
+          <a class="btn small" href="#">Voir</a>
+        </article>
+
+        <article class="card project-card">
+          <h3>Convertisseur Mois</h3>
+          <p>Un mini-project interactif en JavaScript qui Affiche le nom du mois selon le numéro saisi (1 à 12).</p>
+          <p class="tags">#html #css #js</p>
+          <a class="btn small" href="#">Voir</a>
+        </article>
+
+        <article class="card project-card">
+          <h3>Suite de Fibonacci</h3>
+          <p>Un mini-jeu interactif en JavaScript qui Génère les N premiers termes de Fibonacci avec saisie utilisateur.</p>
+          <p class="tags">#html #css #js</p>
+          <a class="btn small" href="#">Voir</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section id="competences" class="section competences">
+    <div class="container">
+      <h2>Mes Compétences</h2>
+
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Soft skills</h3>
+
+          <div class="skill">
+            <div class="label">Gestion de projet</div>
+            <div class="bar"><div class="fill" style="width:70%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="label">Résolution de problèmes</div>
+            <div class="bar"><div class="fill" style="width:80%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="label">Adaptabilité</div>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Hard skills</h3>
+
+          <div class="skill">
+            <div class="label">HTML</div>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="label">CSS</div>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="label">JavaScript</div>
+            <div class="bar"><div class="fill" style="width:65%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="label">VS Code</div>
+            <div class="bar"><div class="fill" style="width:80%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Vous avez un <span class="accent">projet</span> en tête ?<br> N’hésitez pas à me <span class="accent">contacter</span></h2>
+
+      <form id="contactForm" class="form">
+        <div class="row">
+          <input type="text" id="prenom" placeholder="Votre prénom">
+          <input type="text" id="nom" placeholder="Votre nom">
+        </div>
+
+        <input type="email" id="email" placeholder="Votre email">
+        <textarea id="message" rows="6" placeholder="Votre message"></textarea>
+
+        <button type="submit" class="btn">Envoyer</button>
+        <p id="formInfo"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <small>Designed by Jahmi_Nam's with HTML CSS JS</small>
+      <small>Tous droits réservés - 2026</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
